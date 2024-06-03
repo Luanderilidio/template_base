@@ -9,6 +9,9 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@editorjs/editorjs": "^2.29.1",
+    "@editorjs/header": "^2.8.1",
+    "@editorjs/list": "^1.9.0",
     "@emotion/react": "^11.11.3",
     "@emotion/styled": "^11.11.0",
     "@material-tailwind/react": "^1.4.2",
@@ -26,6 +29,7 @@
     "json-server": "^0.17.4",
     "leaflet": "^1.9.4",
     "moment": "^2.29.4",
+    "mui-rte": "^2.0.1",
     "phosphor-react": "^1.4.1",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
@@ -35,6 +39,7 @@
     "react-modern-drawer": "^1.2.2",
     "react-phone-input-2": "^2.15.1",
     "react-query": "^3.39.3",
+    "react-quill": "^2.0.0",
     "react-responsive": "^9.0.2",
     "react-text-mask": "^5.5.0",
     "react-window": "^1.8.9",
@@ -46,6 +51,7 @@
   "devDependencies": {
     "@faker-js/faker": "^7.6.0",
     "@tailwindcss/forms": "^0.5.3",
+    "@types/editorjs__header": "^2.6.3",
     "@types/react": "^18.0.26",
     "@types/react-dom": "^18.0.9",
     "@types/react-input-mask": "^3.0.4",

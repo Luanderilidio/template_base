@@ -1,14 +1,18 @@
 import { Container } from "@mui/material";
 import React, { ReactNode } from "react";
+import Header from "../header";
 
 interface BaseProps {
-    children: ReactNode
+  children: ReactNode;
 }
 
-export const Base: React.FC<BaseProps> = ({children}) => {
+export const Base: React.FC<BaseProps> = ({ children }) => {
   return (
-    <Container disableGutters maxWidth="lg" >
-      {children}
-    </Container>
+    <div className="">
+     <Header />
+      <Container disableGutters maxWidth="lg">
+        {children}
+      </Container>
+    </div>
   );
 };
